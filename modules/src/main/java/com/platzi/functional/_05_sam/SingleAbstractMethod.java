@@ -54,7 +54,7 @@ public class SingleAbstractMethod {
     /**
      * De nuevo, esto solo funciona en interfaces de tipo SAM
      */
-// @FunctionalInterface
+   // @FunctionalInterface
     interface NotAValidSAM {
         String getText();
 

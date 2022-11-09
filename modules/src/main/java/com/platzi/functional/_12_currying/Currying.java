@@ -1,5 +1,6 @@
 package com.platzi.functional._12_currying;
 
+import java.util.function.BinaryOperator;
 import java.util.function.Function;
 
 public class Currying {

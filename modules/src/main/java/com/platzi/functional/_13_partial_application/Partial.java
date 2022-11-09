@@ -26,7 +26,10 @@ public class Partial {
         /*
         Primero, definamos una funcion que hace currying:
          */
-        Function<BiFunction<Integer, Integer, Integer>, Function<Integer, Function<Integer, Integer>>>
+        Function<
+                BiFunction<Integer, Integer, Integer>,
+                Function<Integer, Function<Integer, Integer>>
+                >
                 curryBiFunction = biFun -> X -> Y -> biFun.apply(X, Y);
 
         /*
@@ -48,6 +51,8 @@ public class Partial {
                 multiplyBy2.apply(10)
         );
     }
+
+
 
 
 //
